@@ -154,6 +154,7 @@ Paste provided Python code in the lambda.py file on this project, and click **De
 
 ## 👨‍💻 Author
 
-Built as part of a cloud engineering learning journey aligned with MSc Cloud Computing Systems.
-
+**Peter Diyo**
+- GitHub: https://github.com/PeterDiyo  
+- LinkedIn: https://www.linkedin.com/in/peter-diyo-a38451289/
 ---
