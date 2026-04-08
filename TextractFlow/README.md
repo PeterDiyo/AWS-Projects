@@ -108,7 +108,6 @@ DYNAMODB_TABLE=Receipts
 SES_SENDER_EMAIL=your-email@example.com
 SES_RECIPIENT_EMAIL=recipient@example.com
 
-
 ---
 
 ### 6. Deploy Lambda Code
