@@ -112,7 +112,7 @@ SES_RECIPIENT_EMAIL=recipient@example.com
 
 ### 6. Deploy Lambda Code
 
-Paste provided Python code and click **Deploy**
+Paste provided Python code in the lambda.py file on this project, and click **Deploy**
 
 ---
 
