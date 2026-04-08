@@ -34,6 +34,8 @@ Built using core AWS cloud-native services, this project demonstrates modern **d
 
 ## ⚙️ Architecture Highlights
 
+<img width="716" height="386" alt="TextractFlow drawio" src="https://github.com/user-attachments/assets/866e0f2f-bd89-4389-8181-4c42be7701fb" />
+
 - Event-driven pipeline (S3 → Lambda)
 - Fully serverless (no infrastructure management)
 - Scalable & fault-tolerant design
