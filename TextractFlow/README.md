@@ -34,6 +34,8 @@ Built using core AWS cloud-native services, this project demonstrates modern **d
 
 ## ⚙️ Architecture Highlights
 
+<img width="716" height="386" alt="TextractFlow drawio" src="https://github.com/user-attachments/assets/866e0f2f-bd89-4389-8181-4c42be7701fb" />
+
 - Event-driven pipeline (S3 → Lambda)
 - Fully serverless (no infrastructure management)
 - Scalable & fault-tolerant design
@@ -108,12 +110,11 @@ DYNAMODB_TABLE=Receipts
 SES_SENDER_EMAIL=your-email@example.com
 SES_RECIPIENT_EMAIL=recipient@example.com
 
-
 ---
 
 ### 6. Deploy Lambda Code
 
-Paste provided Python code and click **Deploy**
+Paste provided Python code in the lambda.py file on this project, and click **Deploy**
 
 ---
 
@@ -155,6 +156,7 @@ Paste provided Python code and click **Deploy**
 
 ## 👨‍💻 Author
 
-Built as part of a cloud engineering learning journey aligned with MSc Cloud Computing Systems.
-
+**Peter Diyo**
+- GitHub: https://github.com/PeterDiyo  
+- LinkedIn: https://www.linkedin.com/in/peter-diyo-a38451289/
 ---
