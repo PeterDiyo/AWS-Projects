@@ -10,7 +10,7 @@ An **event-driven email marketing system** built using AWS services. This projec
 
 ## Architecture Diagram
 
-
+<img width="319" height="308" alt="Email-market" src="https://github.com/user-attachments/assets/f235074c-8b16-4c69-ae21-dd6bd4bceeb2" />
 
 ## AWS Services Used
 
@@ -76,6 +76,7 @@ An **event-driven email marketing system** built using AWS services. This projec
 ### Final Step
 - Monitor execution
 - Confirm emails are successfully sent via SES
+<img width="556" height="520" alt="image" src="https://github.com/user-attachments/assets/70ec8fde-f009-4d0d-b447-1a9cecb8cedc" />
 
 ## How to Enhance
 
