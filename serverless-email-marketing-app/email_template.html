@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<body style="margin:0; padding:0; background-color:#f4f6f8; font-family: Arial, sans-serif;">
+
+<!-- Wrapper -->
+<table width="100%" cellpadding="0" cellspacing="0" style="background-color:#f4f6f8; padding:20px 0;">
+<tr>
+<td align="center">
+
+<!-- Container -->
+<table width="600" cellpadding="0" cellspacing="0" style="background:#ffffff; border-radius:6px; overflow:hidden;">
+
+  <!-- Header -->
+  <tr>
+    <td style="background:#0f172a; padding:20px; text-align:center; color:#ffffff;">
+      <h1 style="margin:0; font-size:22px;">Serverless Email Marketing</h1>
+      <p style="margin:5px 0 0; font-size:13px; color:#cbd5e1;">
+        Scalable • Event-Driven • Cloud-Native
+      </p>
+    </td>
+  </tr>
+
+  <!-- Body -->
+  <tr>
+    <td style="padding:25px; color:#333333;">
+
+      <h2 style="color:#2563eb; margin-top:0;">
+        This Week's Tech Challenge
+      </h2>
+
+      <p style="font-size:15px;">Hello {{FirstName}},</p>
+
+      <p style="font-size:15px; line-height:1.6;">
+        Welcome back to your weekly challenge from our <strong>Serverless Email Marketing App</strong>.
+        This time, we’re testing your logical thinking with a puzzle that goes beyond simple math.
+      </p>
+
+      <!-- Challenge Box -->
+      <table width="100%" cellpadding="0" cellspacing="0" style="margin:20px 0; background:#f1f5f9; border-left:4px solid #2563eb;">
+        <tr>
+          <td style="padding:15px;">
+
+            <h3 style="margin:0 0 10px 0; color:#0f172a;">
+              Challenge: The Programmer’s Riddle
+            </h3>
+
+            <p style="margin:0 0 10px 0; font-size:14px;">
+              You discover a mysterious sequence inside a digital system:
+            </p>
+
+            <p style="font-size:16px; font-weight:bold; margin:10px 0;">
+              8, 5, 4, 9, 1, 7, 6, 3, 2, 0
+            </p>
+
+            <p style="font-size:14px;">
+              <strong>Hint:</strong> The order is determined not by mathematics,
+              but by a unique property of each number.
+            </p>
+
+          </td>
+        </tr>
+      </table>
+
+      <!-- CTA -->
+      <table cellpadding="0" cellspacing="0" align="center" style="margin:20px auto;">
+        <tr>
+          <td align="center">
+            <a href="{{cta_link}}" 
+               style="background:#2563eb; color:#ffffff; padding:12px 20px; text-decoration:none; border-radius:4px; font-size:14px; display:inline-block;">
+              Submit Your Answer
+            </a>
+          </td>
+        </tr>
+      </table>
+
+      <!-- Rewards -->
+      <h3 style="color:#0f172a;">Rewards</h3>
+      <p style="font-size:14px;">
+        🎯 <strong>Top Solver:</strong> Featured + reward<br/>
+        💡 <strong>Creative Thinkers:</strong> Hall of Fame recognition
+      </p>
+
+      <p style="font-size:14px; line-height:1.6;">
+        Think beyond the obvious — this challenge rewards creativity just as much as logic.
+      </p>
+
+      <p style="font-size:14px;">
+        Best regards,<br/>
+        <strong>Serverless Email Marketing Team</strong>
+      </p>
+
+    </td>
+  </tr>
+
+  <!-- Footer -->
+  <tr>
+    <td style="background:#f8fafc; padding:15px; text-align:center; font-size:12px; color:#6b7280;">
+      <p style="margin:0;">
+        Built with AWS SES • Lambda • S3 • EventBridge
+      </p>
+      <p style="margin:5px 0;">
+        <a href="{{unsubscribe_link}}" style="color:#6b7280; text-decoration:underline;">
+          Unsubscribe
+        </a>
+      </p>
+    </td>
+  </tr>
+
+</table>
+<!-- End Container -->
+
+</td>
+</tr>
+</table>
+
+</body>
+</html>
